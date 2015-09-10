@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	_ "github.com/shelmesky/rtmonitor_dashboard/routers"
+	"github.com/astaxie/beego"
+)
 
 func main() {
-	fmt.Println("hello world")
+	beego.Run()
 }
