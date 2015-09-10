@@ -12,10 +12,17 @@ export GOPATH=$HOME/workspace/Go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
 
-## 获取项目代码到本地, 并安装依赖
+## 获取项目代码到本地, 安装项目依赖
 
 ```bash
 $ go get github.com/shelmesky/rtmonitor_dashboard
 $ go get github.com/astaxie/beego
 $ go get github.com/beego/bee
+```
+
+## 安装godef等开发相关的工具，方便代码跳转
+
+```bash
+$ go get code.google.com/p/rog-go/exp/cmd/godef
+$ go get github.com/nsf/gocode
 ```
